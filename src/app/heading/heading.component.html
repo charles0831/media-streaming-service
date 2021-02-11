@@ -1,0 +1,16 @@
+<section id="heading" class="mat-typography" [ngStyle.lt-md]="{'margin-top': '30px', 'margin-bottom': '30px'}">
+	<div class="container">
+		<div class="heading-section" fxLayout="column" fxLayoutAlign="center center">
+			<div [class.animated]="isHeading" [class.fadeInLeft]="isHeading">
+				<h1 [ngStyle.xs]="{'font-size': '32px'}" [ngStyle.sm]="{'font-size': '42px'}">Media Streaming Service</h1>
+			</div>
+			<div [class.animated]="isSubheading" [class.fadeInRight]="isSubheading">
+				<h2 [ngStyle.xs]="{'font-size': '18px'}" [ngStyle.sm]="{'font-size': '22px'}">Media Streaming Service is a digital strategy development team that provides development solutions, which means customers can ask for live video/vod streaming development, video conference system, web development, mobile application, web design, IT support and if they want to learn on their own, we also offer programming training.</h2>
+			</div>
+			<div fxLayout="row" [class.animated]="isHeadingBtn" [class.fadeIn]="isHeadingBtn" [class.heading-btn]="isHeadingBtn">
+				<!--<a class="heading-button-left" mat-flat-button color="accent">Action</a>-->
+				<!--<a class="heading-button-right" mat-stroked-button color="accent">Action</a>-->
+			</div>
+		</div>
+	</div>
+</section>
